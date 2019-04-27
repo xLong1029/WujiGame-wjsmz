@@ -1,0 +1,79 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *
+ * MoonCake v1.3.1 - Error Page Stylesheet
+ *
+ * This file is part of MoonCake, an Admin template build for sale at ThemeForest.
+ * For questions, suggestions or support request, please mail me at maimairel@yahoo.com
+ *
+ * Development Started:
+ * July 28, 2012
+ * Last Update:
+ * December 07, 2012
+ *
+ */
+
+/* Body
+================================================== */
+
+body
+{
+    background: #fafafa url(../images/error_bg.jpg);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    line-height: 20px;
+    padding: 200px 0;
+}
+
+#error-wrap
+{
+    text-align: center;
+    margin: auto;
+}
+
+#error-digits
+{
+    margin: auto;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+#error-digits > span
+{
+    display: inline-block;
+    font-size: 96px;
+    margin: 5px;
+    line-height: 96px;
+    font-weight: bold;
+    background-color: #f9ac26;
+    padding: 16px 32px;
+    position: relative;
+}
+
+#error-wrap h1
+{
+    margin-bottom: 15px;
+    text-shadow: 1px 1px #fff;
+    color: #313131;
+	font: 33px "microsoft yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#error-wrap p a
+{
+    border-bottom: 1px dotted #999;
+    text-decoration: none;
+}
+
+#error-form.form-search
+{
+    padding: 25px 0;
+}
+
+#error-form.form-search .search-query
+{
+    height: 28px;
+}
+
+#error-form.form-search .btn
+{
+    line-height: 28px;
+}

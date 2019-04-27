@@ -1,0 +1,58 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-12-14
+Version:1.0.1
+**************************************/
+.wallpaper{
+	width:100%;
+	margin:0px auto;
+	}
+	
+.d_line {
+	height: 12px;
+	border-bottom: 1px solid #DBE8FB;
+	margin-bottom: 12px;
+	display: inline-block;
+	}
+	
+.btn_close{
+	display:block;
+	height:40px;
+	color:#FFF;
+	background:#f9ac26;
+	font-size:16px;
+	line-height:40px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	width:175px;
+	margin:0 auto;
+	margin-top:20px;
+	}
+/**************************************/	
+.footer{
+	padding-bottom:20px;
+	padding-top:8px;
+	background:#ecfaff;
+	}
+	
+.footer > .logo > .logoimg{
+	display: block;
+	width:147px;
+	height:33px;
+	margin:0px auto;
+	background:url(../images/logo2.png) no-repeat;
+	background-size:147px 33px;
+	}
+	
+.footer > .logo > .d_line {
+	width: 38%;
+	}
+	
+.footer .copyright{
+	text-align:center;
+	margin-top:10px;
+	color:#333;
+	}

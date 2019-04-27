@@ -1,0 +1,382 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-11-09
+Version:1.0.1
+**************************************/
+.header{
+	width: 100%;
+    height: 65px;
+    background:#33075D;
+    position: relative;
+	}
+	
+.header img {
+    position: absolute;
+    top:9px;
+    left:3%;
+    z-index: 99;
+	width:48px;
+	height:48px;
+}
+
+.header h1 {
+    position: absolute;
+    top:16%;
+    left:70px;
+    font: 18px "Microsoft Yahei";
+    color: #fff;
+}
+
+.header h2 {
+    position: absolute;
+    top:60%;
+    left:70px;
+    font: 12px "Microsoft Yahei";
+    color:#D2D2D2;
+}
+
+.header .down-btn {
+    width: 26%;
+	padding:8px 0;
+    background:#fff;
+    position: absolute;
+    right:3%;
+    top: 22%;
+    color: #640098;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bg1 img {
+	float:left;
+}
+/**************************************/
+.phone_banner .banner_scroll{
+	position:relative;
+	background:#fff;
+	}
+	
+.scroll_box {
+    position: relative;
+}
+#scroll_img {
+	position:relative;
+}
+
+#scroll_img img{
+	width:100%;
+	}
+
+.slidesjs-pagination {
+	position: absolute;
+	left: 50%;
+	z-index: 400;
+	height: 15px;
+	bottom: 2px;
+	width: 100px;
+	margin-left: -50px;
+	text-align: center;
+}
+
+.slidesjs-pagination li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	padding:0 3px;
+	margin-bottom:8px;
+}
+
+.slidesjs-pagination li a {
+	float:left;
+	width: 10px;
+	height: 10px;
+	font-size:0;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:#CECECE;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-color:#1A75CC;
+}
+
+/**************************************/
+.phone_down{
+	background:#ecfaff;
+	/*height:62px;*/
+	}
+
+.phone_down a{
+	color:#fff;
+	padding:7px 0;
+	font-size:16px;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:44%;
+	-moz-border-radius: 5px;      /* Firefox */
+    -webkit-border-radius: 5px;   /* Safari和Chrome */
+    border-radius:5px;
+	}
+	
+.btn_android > span > i, .btn_gift > span > i{
+	float:left;
+	height:25px;
+	margin-right:10px;
+	/*margin-top:6px;*/
+	background:url(../images/download_2.png) no-repeat;
+	background-size: 161px 108px;
+	}
+	
+.phone_down a > span{
+	margin:0px auto;
+	display:inline-block;
+	}
+	
+.btn_ios{
+	float:right;
+	margin-right:4%;
+	background:#999;
+	}
+	
+.btn_gift{
+	float:right;
+	margin-right:4%;
+	background:#f9ac26;
+	}
+	
+.btn_android{
+	float:left;
+	margin-left:4%;
+	background:#7daf29;
+	}
+	
+.btn_android > span > i{	
+	width:22px;
+	background-position:0px 0px;
+	}
+	
+.btn_ios > span > i{
+	width:23px;
+	background-position:-22px 0px;
+	}
+	
+.btn_gift > span > i{	
+	width:22px;
+	background-position:-91px 0px;
+	}
+	
+#top_down{
+	position:fixed;
+	background:#FDEFD5;
+	/*height: 60px;*/
+	width:100%;
+	top:0;
+	z-index:999;
+	display:none;
+	border-bottom: 1px solid #AB6F6F;
+	}
+/**************************************/
+.news_title, .gamedata_title,.service_title{
+	background:#D3F0FF;
+	border-left:2px solid #14326F;
+	height:40px;
+	line-height:40px;
+	}
+	
+.news_title > span, .gamedata_title > span, .service_title > span{
+	color:#094C82;
+	font-size:16px;
+	margin-left:10px;
+	}
+	
+.news_cont{
+	background:#fff;}
+	
+.news_cont li{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #DBE8FB;
+	position:relative;
+	}
+	
+.news_cont li:nth-last-child(1){
+	border-bottom:0;
+	}
+	
+.news_cont li a{
+	float:left;
+	padding:10px 0;
+	display:block;
+	position:relative;
+	width:100%;
+	}
+	
+.news_cont .news_name{
+	float: left;
+	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	margin-left:10px;
+	}
+	
+.news_cont .news_time{
+	position: absolute;
+	right:10px;
+	top: 10px;
+	display: block;
+	color:#999;
+	}
+/**************************************/
+.gamedata_cont ul{
+	float:left;
+	width:100%;
+	background:#fff;
+	}
+	
+.gamedata_cont li{
+	float:left;
+	width:50%;
+	text-align:center;
+	/*background: -webkit-linear-gradient(#fff, #fef6e8);
+	background: -o-linear-gradient(#fff, #fef6e8);
+	background: -moz-linear-gradient(#fff, #fef6e8);
+	background: linear-gradient(#fff, #fef6e8);*/
+	}
+	
+.gamedata_cont .bbtm{
+	border-bottom:1px solid #DBE8FB;	
+	}
+	
+.gamedata_cont li:nth-child(2n+1){
+	border-right:1px solid #DBE8FB;
+	margin-left:-1px;
+	}
+	
+.gamedata_cont a{
+	float:left;
+	width:100%;
+	}
+	
+.gamedata_cont a > span{
+	display:inline-block;
+	height:42px;
+	line-height:42px;
+	margin:0px auto;
+	}
+	
+.gamedata_cont a > span > i{
+	float:left;
+	height:39px;
+	margin-right:15px;
+	background:url(../images/download_2.png) no-repeat;
+	background-size: 161px 108px;
+	}
+	
+.gamedata_cont .data_role > i{
+	width:38px;
+	margin-top:6px;
+	background-position:0px -69px;
+	}
+	
+.gamedata_cont .data_ride > i{
+	width:38px;
+	margin-top:2px;
+	background-position:-43px -69px;
+	}
+	
+.gamedata_cont .data_pet > i{
+	width:35px;
+	margin-top:2px;
+	background-position:-82px -69px;
+	}
+
+.gamedata_cont .data_boss > i{
+	width:38px;
+	margin-top:2px;
+	background-position:-118px -69px;
+	}
+/**************************************/
+.service_cont{
+	background: #fff;
+	padding:10px 0;
+	border-bottom:1px solid #DBE8FB;
+	}
+.service_cont p{
+	margin-bottom:10px;
+	}
+	
+.service_cont p:last-child{
+	margin-bottom:0;
+	}
+/**************************************/	
+.phone_share{
+	text-align:center;
+	height:50px;
+	line-height:43px;
+	padding:15px 0;
+	background:#ecfaff;
+	}
+.phone_share a{
+	display:inline-block;
+	width:43px;
+	height:43px;
+	text-indent: -9999px;
+	margin: 7px;
+	background:url(../images/download_2.png) no-repeat;
+	background-size: 161px 108px;
+	}	
+
+.phone_share #share_qzone{
+	background-position:0px -26px;
+	}	
+	
+.phone_share #share_sina{
+	background-position:-43px -26px;
+	}
+	
+.phone_share #share_tencent{
+	background-position:-87px -26px;
+	}
+/**************************************/
+#giftPop .gift_info {
+    position: absolute;
+    /*top: 50%;*/
+    left: 0;
+    width: 100%;
+    /*margin-top: -130px;*/
+    /*height: 160px;*/
+    padding: 20px 0;
+    text-align: center;
+    background: #fff;
+    z-index: 9999;
+}
+
+#giftPop .gift_info .anhao{
+	width:150px;
+	text-align:center;
+	margin:15px auto;
+	padding:10px;
+	font-size:16px;
+	border:1px dashed #BE0909;
+	}
+.shade {
+    width: 100%;
+    /* height: 100%; */
+    z-index: 999;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+}

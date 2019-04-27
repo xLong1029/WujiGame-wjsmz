@@ -1,0 +1,213 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-12-14
+Version:1.0.1
+**************************************/
+.m_header, .m_footer{
+	display:none;
+	}
+
+.header{
+	width:100%;
+	height:471px;
+	background:url(../images/headerbg_1.jpg) center top no-repeat;
+	}
+	
+.header_nav{
+	position:relative;
+	width:100%;
+	background:url(../images/nav_bg.png) center top no-repeat;
+	height:80px;
+	}
+	
+.header_nav .game_logo{
+	margin:0px auto;
+	background:url(../images/game_logo.png);
+	width:273px;
+	height:157px;
+	}
+	
+.header_nav  a{
+	width:142px;
+	height:44px;
+	top:20px;
+	background:url(../images/nav.png) no-repeat;
+	position:absolute;
+	z-index:10;
+	}
+	
+.header_nav .nav1{
+	left:30px;
+	background-position:0px 0px;
+	}
+	
+.header_nav .nav1:hover{
+	background-position:0px -45px;
+	}
+	
+.header_nav .nav2{
+	left:210px;
+	background-position:-145px 0px;
+	}
+
+.header_nav .nav2:hover{
+	background-position:-145px -45px;
+	}
+	
+.header_nav .nav3{
+	right:210px;
+	background-position:-292px 0px;
+	}
+	
+.header_nav .nav3:hover{
+	background-position:-292px -45px;
+	}
+	
+.header_nav .nav4{
+	right:40px;
+	background-position:-438px 0px;
+	}
+	
+.header_nav .nav4:hover{
+	background-position:-438px -45px;
+	}
+	
+.header_nav .line1{
+	top: 3px;
+	left: 248px;
+	}
+/**************************************/	
+.btn_android, .btn_ios{
+	width:154px;
+	height:47px;	
+	background:url(../images/btn_sprite_1.png) no-repeat;
+	}
+	
+.btn_android{
+	background-position: 0 -94px;
+	}
+	
+.btn_android:hover{	
+	background-position: 0 -141px;
+	}
+	
+.btn_ios{
+	background-position: 0 0;
+	}
+/**************************************/
+.footer{
+	/*float:left;*/
+	width:100%;
+	margin-top:60px;
+	}
+	
+.footer .advice{
+	text-align:center;
+	margin-top:5px;
+	font-size:12px;
+	color:#646464;
+	}
+	
+.footer .copyright{
+	width:700px;
+	height:65px;
+	padding:25px 0;
+	margin:0px auto;
+	font-size:14px;
+	font-weight:400;
+	}
+	
+.copyright > .in_left > a {
+	width:196px;
+	height:45px;
+	float:left;
+	background:url(../images/logo_wuji.png) no-repeat;
+	background-size:100%;
+	}
+	
+.copyright .in_right{
+	float:right;
+	}
+	
+.in_right > span{
+	color:#2672B0;
+	}
+	
+.in_right > span > a {
+	margin:0 3px;
+	color:#2672B0;
+	}
+/**************************************/
+.mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: #101620;
+	display: none;
+	min-width: 1130px;
+	_width:expression((documentElement.clientWidth < 1130) ? "1130px" : "auto" );
+	}
+.pop_close {
+	position: absolute;
+	top: -53px;
+	right: 0;
+	display: block;
+	width: 48px;
+	height: 44px;
+	border: 2px solid #156694;
+	text-indent: -9999em;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 9999;
+	background: url(../images/focus_sprite.png) no-repeat 0px -34px;
+	}
+/**************************************/	
+.cooperate_btn{
+	cursor:pointer;
+	}
+	
+.pop_cooperate{
+	display: none;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    _margin-top: expression(eval(document.documentElement.scrollTop));
+    left: 50%;
+    width: 540px;
+    height: 333px;
+    margin-left: -270px;
+    z-index: 10000;
+	background:url(../images/pop_service.png) no-repeat;
+}
+
+.cooperate_cont{
+	padding: 50px 120px;
+	color:#fff;
+	}
+	
+.cooperate_cont h1{
+	text-align:center;
+	font-size:40px;
+	line-height:48px;
+	padding-bottom:35px;
+	margin-bottom:35px;
+	border-bottom:1px solid #A6E3F7;
+    color: #00EAFF;
+	}
+	
+.cooperate_cont p{
+	font-size:18px;
+	line-height:36px;
+	text-align:center;
+	}
+/**************************************/		
+#role_info_1{
+	}
+
+#role_info_2{
+	display:none;
+	}

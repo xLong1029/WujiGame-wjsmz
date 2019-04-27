@@ -1,0 +1,146 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-12-14
+Version:1.0.1
+**************************************/
+
+@media (max-width: 767px){
+	.footer > .logo > .d_line {
+		width: 35%;
+	}
+}
+
+@media (max-width: 640px){
+	.footer > .logo > .d_line {
+		width: 30%;
+	}
+	
+	.data_cont ul li{
+		width:33.33%;
+	}
+	
+	.data_cont li:nth-child(3n+1), .data_cont li:nth-child(3n+2){
+		border-right:1px solid #DBE8FB;
+		margin-left:-1px;
+	}
+}
+
+@media (max-width: 480px){
+	.footer > .logo > .d_line {
+		width: 25%;
+	}
+	
+	.data_cont ul li{
+		width:50%;
+	}
+	
+	.data_cont li:nth-child(2n+1){
+		border-right:1px solid #DBE8FB;
+		margin-left:-1px;
+	}
+}
+
+@media (min-width: 480px){
+	.header {
+		height:90px;
+	}
+	
+	.header img{
+		width:70px;
+		height:70px;
+		}
+	
+	.header h1 {
+		font-size:18px;
+    	left: 100px;
+	}
+	
+	.header h2 {
+		font-size:14px;
+		left: 100px;
+	}
+	
+	.header .down-btn {
+		padding:13px 0;
+		font-size:16px;
+	}
+}
+
+@media (min-width: 640px){
+	.header {
+		height:109px;
+	}
+	
+	.header img{
+		width:80px;
+		height:80px;
+		left:20px;
+		top: 15px;
+		}
+	
+	.header h1 {
+		font-size:24px;
+    	left: 120px;
+	}
+	
+	.header h2 {
+		font-size:18px;
+		left: 120px;
+	}
+	
+	.header .down-btn {
+		padding:22px 0;
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 767px){
+	body{
+		/*background:#E4E4E4;*/
+		background: url(../images/bg.jpg) repeat;
+		font-size:18px;
+		line-height:38px;
+	}
+	
+	.wallpaper{
+		width:768px;
+	}
+	
+	.header{
+		width:768px;
+	}
+	
+	.header .down-btn {
+		padding:13px 0;
+		font-size: 22px;
+	}
+	
+	#top_down{
+		width:768px;
+		}
+		
+	.gamedata_cont a > span{
+		padding:10px;
+		}
+		
+	.phone_down a{
+		padding:8px 0;
+		margin-top: 15px;
+    	margin-bottom: 15px;
+		font-size:18px;
+	}
+	
+	.btn_android > span > i, .btn_gift > span > i {
+		margin-top: 6px;
+	}
+	
+	.news_title > span, .gamedata_title > span, .service_title > span {
+		font-size: 18px;
+	}
+	
+	.slidesjs-pagination{
+		height:40px;
+		}
+		
+}

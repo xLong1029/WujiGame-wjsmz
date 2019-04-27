@@ -1,0 +1,142 @@
+@charset "utf-8";
+/**************************************
+Author:xLong
+Date:2015-11-09
+Version:1.0.1
+**************************************/
+body {
+	width:100%;
+	line-height:22px;
+	-webkit-text-size-adjust:none;
+	color:#333333;
+	font-size:14px;
+	font-family:"microsoft yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	background:#fff;
+}
+html,body {
+	padding:0;
+	margin:0;
+}
+
+div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    /*font-size:100%;*/
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+/* =============================================================================
+    1. ul
+============================================================================= */
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul, menu, dir {
+	display: block;
+}
+
+/* =============================================================================
+    2. a
+============================================================================= */
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+	outline: none;
+	text-decoration: none;
+    background: transparent;
+	vertical-align: baseline;
+	color:#333333;
+}
+
+/* =============================================================================
+    3. img
+============================================================================= */
+img {
+    border: 0;
+	height: auto;
+	max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* =============================================================================
+    4. input
+============================================================================= */
+input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"],input[type="button"], input[type="submit"]{
+	vertical-align:middle;
+	font-family: "microsoft yahei","Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#FFF;
+}
+
+input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"]{
+	height:38px;
+	border: solid 1px #C3C3C3;
+	text-indent:10px;
+}
+
+input[type="button"], input[type="submit"]{
+	border:0;
+	height:40px;
+	color:#FFF;
+	background:#f9ac26;
+	font-size:16px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	}
+/* =============================================================================
+    5. float
+============================================================================= */
+.fl{
+	float:left;}
+	
+.fr{
+	float:right;
+	}
+	
+/* =============================================================================
+    6. container
+============================================================================= */
+.phone_container{
+	margin-left:10px;
+	margin-right:10px;
+	}
+	
+.full{
+	float:left;
+	width:100%;
+	}
+/* =============================================================================
+    7. font-color
+============================================================================= */
+.f_red{
+	color: #CF0606;
+	}

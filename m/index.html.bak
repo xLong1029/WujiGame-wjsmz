@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>《无极神魔传》手游官网-不花钱 照样玩</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="description" content="《无极神魔传》手游官网-不花钱 照样玩">
+	<meta name="keywords" content="大型RPG仙侠风手游《无极神魔传》，开启征战大陆的噬血仙途，引领最绚丽的自由动作潮流！ 玄幻、仙侠、穿越风三位一体，打造手游视听盛宴！刀君、法神、游侠三大职业，满屏AOE神技挥洒极致战斗快感！炎阳、临月、星玄三大阵营勾心斗角，热血开战万人屠城的PK杀场！超绚丽的进化坐骑，拥有华美的外观与强力战斗能力，屠魔斩神不是梦想！">
+	<meta name="author" content="xLong">
+    <meta name="designer" content="xLong">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link href="../css/m-index.css" rel="stylesheet">
+	<link href="../css/m-main-style.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/m-IfPhoneOrWindows.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+	<body>
+    	<!--wallpaper start-->
+    	<section class="wallpaper">
+            <!--phone_banner start-->
+            <section class="phone_banner full">        	
+                  <!--banner_scroll start-->
+                  <div class="banner_scroll">
+                    <!--scroll_box start-->
+                    <div class="scroll_box" id="scroll_img">
+                          <a href=""><img src="../images/banner/img_01.jpg" width="100%" /></a>
+                          <a href=""><img src="../images/banner/img_02.jpg" width="100%" /></a>
+                          <a href=""><img src="../images/banner/img_03.jpg" width="100%" /></a>
+                          <a href=""><img src="../images/banner/img_04.jpg" width="100%" /></a>
+                    </div>
+                    <!--scroll_box end-->
+                  </div>
+                  <!--banner_scroll end-->
+            </section>
+            <!--phone_banner end-->
+            <!--phone_down start-->
+            <section class="phone_down full">
+            	<div id="top_down">
+                	<a class="btn_android" href="" onClick="alert('丢，这是安卓版！');" name="安卓版下载"><span><i></i>安卓下载</span></a>
+                    <a class="btn_gift" onClick="showBox(giftPop);" name="iOS下载"><span><i></i>领取礼包</span></a>
+                </div>
+                <a class="btn_android" href="" onClick="alert('丢，这是安卓版！');"  name="安卓版下载"><span><i></i>安卓下载</span></a>
+                <a class="btn_gift" onClick="showBox(giftPop);" name="iOS下载"><span><i></i>领取礼包</span></a>
+            </section>
+            <!--phone_down end-->        
+            <!--phone_news start-->
+            <section class="news full">
+                <!--news_title start-->
+                <div class="news_title"><span>最新资讯</span></div>
+                <!--news_title end-->
+                <!--news_cont start-->
+                <div class="news_cont full">
+                    <ul>
+                        <li>
+                            <a href="../news/article.html"><span class="news_name">新闻一</span><span class="news_time">03-05</span></a>                        
+                        </li>
+                        <li>
+                            <a href="../news/article.html"><span class="news_name">新闻二</span><span class="news_time">02-13</span></a>                        
+                        </li>
+                        <li>
+                            <a href="../news/article.html"><span class="news_name">新闻三</span><span class="news_time">01-21</span></a>                        
+                        </li>
+                    </ul>
+                </div>
+                <!--news_cont end-->
+            </section>
+            <!--phone_news end-->
+            <!--phone_gamedata start-->
+            <section class="phone_gamedata full">
+                <!--gamedata_title start-->
+                <div class="gamedata_title"><span>游戏资料</span></div>
+                <!--gamedata_title end-->
+                <!--gamedata_cont start-->
+                <div class="gamedata_cont">
+                    <ul>
+                        <li class="bbtm">
+                            <a href="../gamedata/index.html"><span class="data_role"><i></i>角色介绍</span></a>                        
+                        </li>
+                        <li class="bbtm">
+                            <a href="../gamedata/ride.html"><span class="data_ride"><i></i>坐骑介绍</span></a>                        
+                        </li>
+                        <li>
+                            <a href="../gamedata/pet.html"><span class="data_pet"><i></i>宠物介绍</span></a>                        
+                        </li>
+                        <li>
+                            <a href="../gamedata/boss.html"><span class="data_boss"><i></i>BOSS介绍</span></a>                        
+                        </li>
+                    </ul>
+                </div>
+                <!--gamedata_cont end-->
+            </section>
+            <!--phone_gamedata end-->
+            <!--phone_service start-->
+            <section class="phone_service full">
+                <!--user_service start-->
+                <div class="service_title"><span>客户服务</span></div>
+                <div class="service_cont" style="border-bottom:none;">
+                    <div class="phone_container">
+                        <p>客服QQ：1958186119</p>
+                        <p>客服电话：0771-5505440-8009</p>
+                        <p>官方QQ群：118788475</p>
+                    </div>
+                </div>
+                <!--user_service end-->
+                <!--market_service start-->
+                <div class="service_title"><span>市场服务</span></div>
+                <div class="service_cont">
+                    <div class="phone_container">
+                        <p>商务合作QQ：1179614776</p>
+                        <p>市场投放QQ：8855764</p>
+                    </div>
+                </div>
+                <!--market_service end-->
+            </section>
+            <!--phone_service end-->
+            <!--phone_share start-->
+            <section class="phone_share full">
+                分享到：
+                <a id="share_qzone" href="javascript:shareQzone();">QQ空间</a>
+                <a id="share_sina" href="javascript:shareTSina();">新浪微博</a>
+                <a id="share_tencent" href="javascript:shareToWb();">腾训微博</a>
+            </section>
+            <!--phone_share end-->
+            <!--footer start-->
+            <footer class="footer full">
+                <!--logo start-->
+                <div class="logo full">
+                    <span class="d_line fl"></span><span class="d_line fr"></span><a href="http://www.wuji.com/" class="logoimg"></a>
+                </div>
+                <!--logo end-->
+                <!--copyright start-->
+                <div class="copyright full">
+                    <span>无极游戏网版权所有© 2012-2014</span>
+                    <br/>
+                    <span>桂ICP备13000572号-2</span>
+                </div>
+                <!--copyright end-->
+            </footer>
+            <!--footer end-->
+            <!--gift_pop start-->
+            <div id="giftPop">        
+                <div class="gift_info">
+                    <div>恭喜你，初窥门道，截获一个神秘的礼包暗号:</div>
+                    <div class="anhao f_red">【乐享无极】</div>
+                    <div style="padding:0 10px;">加入官方Q群：118788475，联系客服MM发出暗号，即可获得<span class="f_red">价值888元的游戏尊享礼包！</span></div>
+                    <input class="btn_l center" type="button" value="确定" style="width:175px; margin-top:20px;" onclick="closeBox(giftPop);">
+                </div>
+                <div class="shade"></div>
+            </div>
+            <!--gift_pop end-->
+        </section>
+        <!--wallpaper end-->
+	</body>
+    <script type="text/javascript" src="../js/m-jquery.slides.min.js"></script>
+    <script type="text/javascript" src="../js/m-common.min.js"></script> 
+</html>
